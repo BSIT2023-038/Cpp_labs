@@ -72,22 +72,22 @@ int main() {
     f3.print(); // Should print 1/2
 
     // Demonstrate arithmetic operations
-    Fraction sum = f3.add(f2);
-    Fraction difference = f3.subtract(f2);
-    Fraction product = f3.multiply(f2);
-    Fraction quotient = f3.divide(f2);
+    Fraction result1 = f3.add(f2);
+    Fraction result2 = f3.subtract(f2);
+    Fraction result3 = f3.multiply(f2);
+    Fraction result4 = f3.divide(f2);
 
-    cout << "Sum: ";
-    sum.print(); // Should print result of 1/2 + 3/4
+    cout << "Result of addition: ";
+    result1.print(); // Print the result of 1/2 + 3/4
 
-    cout << "Difference: ";
-    difference.print(); // Should print result of 1/2 - 3/4
+    cout << "Result of subtraction: ";
+    result2.print(); // Print the result of 1/2 - 3/4
 
-    cout << "Product: ";
-    product.print(); // Should print result of 1/2 * 3/4
+    cout << "Result of multiplication: ";
+    result3.print(); // Print the result of 1/2 * 3/4
 
-    cout << "Quotient: ";
-    quotient.print(); // Should print result of 1/2 / 3/4
+    cout << "Result of division: ";
+    result4.print(); // Print the result of 1/2 / 3/4
 
     return 0;
 }
